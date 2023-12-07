@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicons/images-logo2.png" type="image/x-icon">
+  <title>GroovyGirl</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<h1>GroovyGirl</h1>
+<br>
+<h2>
+    <span id="static-word">New</span>
+    <span class="animated-element mbr-bold" id="typed-text" data-word1="Shirts" data-word2="Dresses" data-word3="Skirts" data-word4="Pants" data-word5="Shoes" data-speed="50" data-words="3"></span>
+</h2>
+
+<script>
+    var typed = new Typed('#typed-text', {
+        strings: [
+            document.getElementById('typed-text').getAttribute('data-word1'),
+            document.getElementById('typed-text').getAttribute('data-word2'),
+            document.getElementById('typed-text').getAttribute('data-word3'),
+            document.getElementById('typed-text').getAttribute('data-word4'),
+            document.getElementById('typed-text').getAttribute('data-word5')
+        ],
+        typeSpeed: parseInt(document.getElementById('typed-text').getAttribute('data-speed')),
+        backSpeed: parseInt(document.getElementById('typed-text').getAttribute('data-speed')) - 20,
+        startDelay: 500,
+        backDelay: 1500,
+        loop: true
+    });
+</script>
+<div class="paragraph">
+                    <p>
+                        We have your style!<br>
+                        Be the first to know all about the new items!
+                    </p>
+</div>
+                    
+<div class="subscribe-form">
+                            <form action="thank-you-page.html" method="post" class="subscribe-form">
+                                <input type="email" name="email" placeholder="Your email address" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function () {
+                            
+                                    var form = document.querySelector('.subscribe-form');
+                                    form.addEventListener('submit', function (event) {
+                                    
+                                        event.preventDefault();
+                                        
+                                        // Show a popup message
+                                        alert('Thank you for subscribing!');
+                                    });
+                                });
+                            </script>
+                        </div>
+
+</header>
+         
+            <div class="flex-container">
+                    <div>
+                        <img sizes="10%" alt="" src="images/images-shop0.jpg"><br>
+                        <h4>Accessories</h4><br>
+                        
+                        Headband<br>
+                        Glasses<br>
+                        Earrings<br>
+                        Necklace<br>
+                    <br> 
+                    Product code: <strong>A123456</strong><br>
+                    <br>
+                    <button href="">Buy now!</button>
+                    </div>
+                    
+                    <div>
+                        <img alt="" src="images/images-shop1.jpg"><br>
+                        <h4>Shoes</h4><br>
+                        
+                        Casual shoes<br>
+                        Party shoes<br>
+                        Sandals<br>
+                        True to size<br>
+                        <br>
+                        Product code: <strong>B123456</strong><br>
+                        <br>
+                        <button href="">Buy now!</buttons>
+                    </div>
+
+                    <div>
+                        <img alt="" src="images/images-shop2.jpg"><br>
+                        <h4>Fancy dresses</h4><br>
+                        Lightweight textured fabric<br>
+                        Rounded v-neckline<br>
+                        Prices starting from $98<br>
+                        Sizes from XS - XXL<br>
+                        <br>
+                        Product code: <strong>C123456</strong><br>
+                        <br>
+                        <button href="">Buy now!</button>
+                    </div>
+                        
+                    <div>
+                        <img alt="" src="images/images-shop3.jpg"><br>
+                        <h4>Pants</h4><br>
+                        Colorful<br>
+                        Flare style<br>
+                        Lightweight textured fabric<br>
+                        True to size<br>
+                        <br>
+                        Product code: <strong>D123456</strong><br>
+                        <br>
+                        <button href="">Buy now!</button>
+                    </div>
+                                
+            </div>
+
+            <div class="flex-container">                      
+                    <div>
+                    <img alt="" src="images/images-shop6.jpg"><br>
+                    <h4>Shirts</h4><br>
+                    Sizes from XS - XXL<br>
+                    Short sleeves<br>
+                    Long sleeves<br>
+                    Colorful<br>
+                    <br>
+                    Product code: <strong>G123456</strong><br>
+                    <br>
+                    <button href="">Buy now!</button>
+                </div>
+                        
+                    <div>
+                    <img alt="" src="images/images-shop7.jpg"><br>
+                    <h4>Skirts</h4><br>
+                    Mini Skirts<br>
+                    Sizes from XS - XXL<br>
+                    Colorful<br>
+                    Minimalist<br>
+                    <br>
+                    Product code: <strong>H123456</strong><br>
+                    <br>
+                    <button href="">Buy now!</button>
+                </div>
+
+                <div>
+                    <img alt="" src="images/images-shop4.jpg"><br>
+                    <h4>Casual dresses</h4><br>
+                    Lightweight textured fabric<br>
+                    Rounded v-neckline<br>
+                    Sizes from XS - XXL<br>
+                    Floral pattern<br>
+                    <br>
+                    Product code: <strong>E123456</strong><br>
+                    <br>
+                    <button href="">Buy now!</button>
+                </div>
+                        
+                    <div>
+                    <img alt="" src="images/images-shop5.jpg"><br>
+                    <h4>Groovy Dresses</h4><br>
+                    Lightweight textured fabric<br>
+                    Rounded v-neckline<br>
+                    True to size<br>
+                    Colorful<br>
+                    <br>
+                    Product code: <strong>F123456</strong><br>
+                    <br>
+                    <button href="">Buy now!</button>
+                </div>
+            </div>
+
+            <div class="flex-container2">
+                <img src="images/image-mini-skirts.jpg">
+                <p>
+                    <span class="first-line">MINI SKIRTS FOREVER!</span><br>
+                    <br>
+                    The world is changing, mini skirts are a symbol of female liberation. Let's question traditional standards and usher in a new era of sexual freedom. The new contraceptive pill has been produced and more than 1.2 million American women are using birth control to take control of their lives.<br>
+            <br>
+                    In 1966, when Dior’s fashion show didn’t feature the hottest trend of the moment, a group of women known as the “British Society for the Protection of Mini Skirts,” stood outside the show in protest with signs that read, “Mini skirts forever”.<br>
+                    <br>
+                    Women still don't have the same freedom and opportunity as men, that being said, mini skirts are the least of women's problems. However, this moment in fashion history goes to show how important clothing can be as a tool of empowerment, freedom, and expression.<br>
+                    <br>
+                    To that, we say, “Mini skirts forever!”
+                </p>
+            </div>
+    
+    
+    <div class="aboutus">
+        <h3>GroovyGirl</h3>
+
+        <nav class="more">
+            <a href="">Return policy</a>
+            <a href="">Our stores</a>
+            <a href="">Contact us</a>
+            <a href="">About us</a>
+        </nav>
+    </div>
+ 
+      
+      <footer>
+        &copy; 1970 GroovyGirl Clothing Store. All rights reserved.
+    </footer>
+    
+    </body>
+    </html>
